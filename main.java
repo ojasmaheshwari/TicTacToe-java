@@ -122,7 +122,7 @@ class Player {
 	}
 
 	private boolean checkBounds() {
-		return (moveX >= 0 && moveX <= 3 && moveY >= 0 && moveY <= 3);
+		return (moveX >= 1 && moveX <= 3 && moveY >= 1 && moveY <= 3);
 	}
 
 	public void move(Board board) {
